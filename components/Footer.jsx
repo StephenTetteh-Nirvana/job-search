@@ -11,9 +11,9 @@ const Footer = () => {
         <Text style={styles.secondLine}></Text>
       </View>
       <View style={{marginTop:30,display:"flex",flexDirection:"row",justifyContent:"space-evenly"}}>
-        <AntDesign name="apple1" size={27} color="black" />
-        <AntDesign name="google" size={27} color="black" />
-        <FontAwesome5 name="facebook" size={27} color="black" />
+        <AntDesign name="apple1" size={27} color="#000" />
+        <AntDesign name="google" size={27} color="#FDEE00" />
+        <FontAwesome5 name="facebook" size={27} color="#2666CF" />
       </View>
       <Text style={{marginTop:50,margin:"auto"}}>Haven't an account?
         <Text style={{color:"#2666CF"}}>Register</Text>
