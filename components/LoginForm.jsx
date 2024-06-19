@@ -16,6 +16,8 @@ const loginForm = () => {
         userName:userName,
         email:email
        }})
+       setUserName('')
+       setEmail('')
     }
   return (
     <View style={styles.container}>
